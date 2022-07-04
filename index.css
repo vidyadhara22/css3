@@ -1,0 +1,166 @@
+body{
+    background-color: lightskyblue;
+}
+
+.topBox {
+    text-align: center;
+    position: relative;
+    left: 525px;
+    height: 160px;
+    width: 400px;
+    background: white;
+    color: purple;
+    border: 5px solid red;
+    border-radius: 12px;
+    font-weight: 700;
+    text-shadow: 1.2px 1.2px rgb(145, 37, 59);
+    box-shadow: 5px 5px 2px purple;
+    font-size: 22px;
+}
+
+.box2 {
+    position: relative;
+    width: 100%;
+    height: 140vh;
+    border: 7px solid green;
+}
+
+.flex-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+.box3 {
+    text-align: center;
+    height: 360px;
+    width: 350px;
+    background-color: white;
+    color: rgb(78, 21, 78);
+    text-shadow: 1.2px 1.2px rgb(78, 21, 78);
+    border: 5px solid red; 
+    border-radius: 12px;
+    font-weight: 700;
+    box-shadow: 5px 5px 2px purple;
+    font-size: 28px;
+    margin: 20px;
+}
+
+
+.size{
+    margin: 15px;
+    width: 300px;
+    height: 300px;
+}
+
+.p2 {
+    font-size: 20px;
+}
+
+.set {
+    position: relative;
+    bottom: 15px;
+}
+
+.b1 {
+    position: relative;
+    border: 1px solid black;
+    border-radius: 25px;
+    background-color: red;
+    box-shadow: 3px 3px 10px rgb(184, 67, 67);
+    bottom: 15px;
+
+}
+
+.fixedBox {
+    height: 60px;
+    width: 500px;
+    display: flex;
+    position: fixed;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    border: 5px solid red; 
+    border-radius: 12px;
+    box-shadow: 5px 5px 2px purple;
+    background-color: yellowgreen;
+    left: 33%;
+    top: 85vh;
+    z-index: 2;
+    
+}
+
+.lowerBox {
+    text-align: center;
+    position: relative;
+    height: 790px;
+    top: 20px;
+    left: 360px;
+    width: 700px;
+    display: flex;
+    background-color: green;
+    border: 7px solid purple;
+    flex-flow: row wrap;
+    justify-content: space-between;
+
+}
+
+.fixIt {
+    margin-left: 200px;
+}
+
+.fruits {
+    text-align: center;
+    background-color: rgb(225, 225, 91);
+    width: 345px;
+    height: 285px;
+    line-height: 2.3;
+    /* position: relative;
+    bottom: 200px; */
+    
+}
+
+.otherItems {
+    background-color: rgb(225, 225, 91);
+    width: 650px;
+    height: 285px;
+    /* position: relative;
+    bottom: 368px;
+    left: 368px; */
+    padding: 25px;
+    line-height: 2.3;
+    
+}
+
+.fixIt2 {
+    text-align: center;
+    margin-left: 40px;
+}
+
+.te {
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.text1 {
+    color: red;
+    font-size: 20px;
+    margin-top: 15px;
+    margin-left: 5px;
+}
+
+.text2 {
+    color: red;
+    font-size: 17px;
+    margin-top: 15px;
+    margin-right: 5px;
+}
+
+label {
+    font-size: 15px;
+    margin-bottom: 0;
+}
+
+a {
+    text-decoration: none;
+    color: red;
+}
